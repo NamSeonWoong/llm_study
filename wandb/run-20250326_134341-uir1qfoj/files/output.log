@@ -1,0 +1,46 @@
+✓ wandb 초기화 성공: uir1qfoj
+📂 문서를 로드할 디렉토리: /Users/seonwoong/PycharmProjects/langchain_graph/data
+📄 발견된 파일: ['stock_questions3.txt', 'stock_questions2.txt', 'stock_questions.txt']
+   확인 중: stock_questions3.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions3.txt (길이: 3010 자)
+   확인 중: stock_questions2.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions2.txt (길이: 3152 자)
+   확인 중: stock_questions.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions.txt (길이: 2964 자)
+🔢 로드된 문서 수: 3
+문서를 12개의 청크로 분할했습니다.
+기존 벡터 저장소를 로드합니다(/Users/seonwoong/PycharmProjects/langchain_graph/chroma_db)...
+Ollama LLM을 초기화합니다(exaone3.5:latest)...
+기본 프롬프트를 사용합니다.
+
+프롬프트 유형: default
+
+=== Ollama RAG 시스템에 질문하기 (종료하려면 'exit' 입력) ===
+특별 명령어: 'sources' - 마지막 질문에 사용된 문서 청크와 유사도 점수 표시
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #1)
+✓ wandb 로깅 성공
+
+답변: 주식은 기업의 소유권이나 경영권의 일부를 나타내는 증권입니다. 투자자들은 주식을 구매함으로써 해당 기업에 자금을 지원하게 되며, 기업의 이익 배분이나 자산 매각 시 배당금이나 자본 이득을 얻을 수 있는 권리를 갖게 됩니다. 주식 시장에서는 이러한 주식들이 거래되어 투자자들이 기업 가치에 대한 믿음을 사고 팔 수 있는 플랫폼을 제공합니다.
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 478, in <module>
+    main()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 343, in main
+    query = input("\n질문: ")
+            ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x16490b600>
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.4-arm64-arm-64bit",
+  "python": "CPython 3.11.10",
+  "startedAt": "2025-03-26T04:48:21.572605Z",
+  "program": "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py",
+  "codePath": "ollama_rag.py",
+  "git": {
+    "remote": "https://github.com/NamSeonWoong/llm_study.git",
+    "commit": "08b500d7738316b1af79062ea1861a10bf5babae"
+  },
+  "email": "wun1107@gmail.com",
+  "root": "/Users/seonwoong/PycharmProjects/langchain_graph",
+  "host": "namseon-ung-ui-noteubug.local",
+  "executable": "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/bin/python",
+  "codePathLocal": "ollama_rag.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "214419943424"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "214419943424"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 6,
+    "gpuCores": 14,
+    "memoryGb": 16,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "17179869184"
+  }
+}

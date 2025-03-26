@@ -1,0 +1,7 @@
+{"time":"2025-03-26T14:47:28.238125+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/seonwoong/PycharmProjects/langchain_graph/wandb/run-20250326_144728-cmytfdvz/logs/debug-core.log"}
+{"time":"2025-03-26T14:47:28.347016+09:00","level":"INFO","msg":"created new stream","id":"cmytfdvz"}
+{"time":"2025-03-26T14:47:28.347089+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"cmytfdvz"}
+{"time":"2025-03-26T14:47:28.347145+09:00","level":"INFO","msg":"stream: started","id":"cmytfdvz"}
+{"time":"2025-03-26T14:47:28.347095+09:00","level":"INFO","msg":"handler: started","stream_id":"cmytfdvz"}
+{"time":"2025-03-26T14:47:28.347405+09:00","level":"INFO","msg":"sender: started","stream_id":"cmytfdvz"}
+{"time":"2025-03-26T14:47:29.039428+09:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,7 @@
+{"time":"2025-03-26T14:11:48.855975+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/seonwoong/PycharmProjects/langchain_graph/wandb/run-20250326_141148-gdqspufx/logs/debug-core.log"}
+{"time":"2025-03-26T14:11:48.965055+09:00","level":"INFO","msg":"created new stream","id":"gdqspufx"}
+{"time":"2025-03-26T14:11:48.965213+09:00","level":"INFO","msg":"stream: started","id":"gdqspufx"}
+{"time":"2025-03-26T14:11:48.965226+09:00","level":"INFO","msg":"handler: started","stream_id":"gdqspufx"}
+{"time":"2025-03-26T14:11:48.965274+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"gdqspufx"}
+{"time":"2025-03-26T14:11:48.965387+09:00","level":"INFO","msg":"sender: started","stream_id":"gdqspufx"}
+{"time":"2025-03-26T14:11:49.707343+09:00","level":"INFO","msg":"Starting system monitor"}

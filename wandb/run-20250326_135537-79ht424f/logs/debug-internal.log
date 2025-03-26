@@ -1,0 +1,7 @@
+{"time":"2025-03-26T13:55:37.665428+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/seonwoong/PycharmProjects/langchain_graph/wandb/run-20250326_135537-79ht424f/logs/debug-core.log"}
+{"time":"2025-03-26T13:55:37.772875+09:00","level":"INFO","msg":"created new stream","id":"79ht424f"}
+{"time":"2025-03-26T13:55:37.772926+09:00","level":"INFO","msg":"stream: started","id":"79ht424f"}
+{"time":"2025-03-26T13:55:37.772932+09:00","level":"INFO","msg":"handler: started","stream_id":"79ht424f"}
+{"time":"2025-03-26T13:55:37.772948+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"79ht424f"}
+{"time":"2025-03-26T13:55:37.7732+09:00","level":"INFO","msg":"sender: started","stream_id":"79ht424f"}
+{"time":"2025-03-26T13:55:38.540853+09:00","level":"INFO","msg":"Starting system monitor"}

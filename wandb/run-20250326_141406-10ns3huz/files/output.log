@@ -1,0 +1,79 @@
+✓ wandb 초기화 성공: 10ns3huz
+📂 문서를 로드할 디렉토리: /Users/seonwoong/PycharmProjects/langchain_graph/data
+📄 발견된 파일: ['stock_questions3.txt', 'stock_questions2.txt', 'stock_knowledge.txt', 'technical_analysis.txt', 'stock_questions.txt', 'global_markets.txt']
+   확인 중: stock_questions3.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions3.txt (길이: 3010 자)
+   확인 중: stock_questions2.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions2.txt (길이: 3152 자)
+   확인 중: stock_knowledge.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_knowledge.txt (길이: 3066 자)
+   확인 중: technical_analysis.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: technical_analysis.txt (길이: 3750 자)
+   확인 중: stock_questions.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions.txt (길이: 2964 자)
+   확인 중: global_markets.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: global_markets.txt (길이: 4103 자)
+🔢 로드된 문서 수: 6
+문서를 26개의 청크로 분할했습니다.
+기존 벡터 저장소를 로드합니다(/Users/seonwoong/PycharmProjects/langchain_graph/chroma_db)...
+Ollama LLM을 초기화합니다(exaone3.5:latest)...
+기본 프롬프트를 사용합니다.
+
+프롬프트 유형: default
+
+=== Ollama RAG 시스템에 질문하기 (종료하려면 'exit' 입력) ===
+특별 명령어: 'sources' - 마지막 질문에 사용된 문서 청크와 유사도 점수 표시
+🔄 wandb에 로깅 시도 중... (질문 #1)
+✓ wandb 로깅 성공
+
+답변: 주식시장이란 기업들이 주식을 발행하고 투자자들이 이를 사고 팔 수 있는 금융 시장을 말합니다. 여기서 주식은 기업의 소유권 일부를 나타내는 증표로, 투자자들은 이를 통해 기업의 성장에 따른 이익을 얻거나 기업의 경영에 참여할 수 있습니다. 주식시장은 주로 증권거래소를 통해 운영되며, 이곳에서는 주식의 가격이 공급과 수요에 따라 결정됩니다. 또한, 장외시장(OTC 시장)에서도 주식 거래가 이루어지며, 이는 거래소 외부에서 이루어지는 거래를 의미합니다. 이러한 시장은 경제 활동의 중요한 부분으로, 자금 조달과 투자 기회를 제공하는 역할을 합니다.
+유사도 점수: [1.9956663078321963]
+🔄 wandb에 로깅 시도 중... (질문 #2)
+✓ wandb 로깅 성공
+
+답변: 주식시장은 기업들이 자본을 조달하고 투자자들이 주식을 사고 팔 수 있는 금융 시장입니다. 이곳에서는 기업의 소유권 일부를 나타내는 주식들이 거래되며, 이는 기업의 가치 평가, 투자 기회 제공, 그리고 자금의 효율적인 배분 역할을 합니다. 주식 거래는 주로 증권거래소를 통해 이루어지며, 여기에는 코스피(한국거래소 상장 기업들의 시장)와 코스닥(벤처기업 등 다양한 기업들의 시장) 같은 플랫폼들이 포함됩니다. 이러한 시장의 동향과 정보는 경제 뉴스, 금융 분석 보고서, 그리고 전문적인 경제 웹사이트 등에서 확인하실 수 있습니다.
+유사도 점수: [2.015243917629227]
+🔄 wandb에 로깅 시도 중... (질문 #3)
+✓ wandb 로깅 성공
+
+답변: 주식시장은 기업들이 주식을 발행하고 투자자들이 이를 사고 팔 수 있는 금융 시장입니다. 이곳에서는 기업의 소유권 일부를 나타내는 주식들이 거래되며, 투자자들은 기업의 성장 가능성과 수익성을 바탕으로 주식을 매수하거나 매도합니다. 주식시장은 주로 증권거래소를 통해 조직화되며, 여기서는 투명한 가격 형성 과정과 규제 하에 거래가 이루어집니다. 주요 목표는 자금 조달과 투자 기회 제공이며, 이는 경제 활동의 중요한 부분을 차지합니다.
+
+**출처**: 제공된 컨텍스트에는 직접적인 출처 정보가 포함되어 있지 않으나, 이 설명은 일반적인 금융 및 경제학 지식을 바탕으로 작성되었습니다. 정확한 학술적 출처를 요구하신다면, 관련 경제학 또는 금융학 교과서나 신뢰할 수 있는 금융 정보 웹사이트를 참조하시는 것이 좋습니다.
+유사도 점수: [1.999671804337303]
+🔄 wandb에 로깅 시도 중... (질문 #4)
+✓ wandb 로깅 성공
+
+답변: 재무제표는 기업의 재무상태와 경영성과를 정확하게 반영하기 위해 **회계기준**에 따라 작성됩니다. 주로 **한국회계기준원**이나 **국제회계기준(IFRS)** 등의 지침을 따르며, 이들 기관에서 제시하는 규정에 따라 기업의 자산, 부채, 수익, 비용 등을 기록하고 보고합니다. 이를 통해 투자자, 채권자, 관리자 등 이해관계자들이 기업의 재무상태를 평가하고 의사결정을 내릴 수 있게 돕습니다.
+유사도 점수: [1.980578268774288]
+🔄 wandb에 로깅 시도 중... (질문 #5)
+✓ wandb 로깅 성공
+
+답변: 재무제표는 기업의 재무 상태와 경영 성과를 보여주는 중요한 문서로, 주로 다음 출처에서 생성됩니다:
+
+1. **내부 회계 부서**: 기업 내부의 회계팀이 직접 작성합니다. 이들은 일일 거래부터 월간, 분기별, 연간 재무 데이터까지 수집하고 분석하여 정확한 정보를 담은 재무제표를 만듭니다.
+
+2. **외부 감사 기관**: 독립적인 감사 회사가 재무제표의 정확성과 신뢰성을 검증하기 위해 감사를 실시합니다. 감사 결과는 재무제표의 신뢰성을 높이는 데 기여합니다.
+
+이러한 과정을 통해 작성된 재무제표는 투자자, 주주, 금융 기관 등 다양한 이해관계자들에게 제공됩니다.
+유사도 점수: [1.980578268774288]
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 481, in <module>
+    main()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 341, in main
+    query = input("\n질문: ")
+            ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x136e0b600>
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

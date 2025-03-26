@@ -1,0 +1,102 @@
+✓ wandb 초기화 성공: di5z2zzl
+📂 문서를 로드할 디렉토리: /Users/seonwoong/PycharmProjects/langchain_graph/data
+📄 발견된 파일: ['stock_questions3.txt', 'stock_questions2.txt', 'stock_knowledge.txt', 'technical_analysis.txt', 'stock_questions.txt', 'global_markets.txt']
+   확인 중: stock_questions3.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions3.txt (길이: 3010 자)
+   확인 중: stock_questions2.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions2.txt (길이: 3152 자)
+   확인 중: stock_knowledge.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_knowledge.txt (길이: 3066 자)
+   확인 중: technical_analysis.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: technical_analysis.txt (길이: 3750 자)
+   확인 중: stock_questions.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions.txt (길이: 2964 자)
+   확인 중: global_markets.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: global_markets.txt (길이: 4103 자)
+🔢 로드된 문서 수: 6
+문서를 26개의 청크로 분할했습니다.
+기존 벡터 저장소를 로드합니다(/Users/seonwoong/PycharmProjects/langchain_graph/chroma_db)...
+Ollama LLM을 초기화합니다(exaone3.5:latest)...
+기본 프롬프트를 사용합니다.
+
+프롬프트 유형: default
+
+=== Ollama RAG 시스템에 질문하기 (종료하려면 'exit' 입력) ===
+특별 명령어: 'sources' - 마지막 질문에 사용된 문서 청크와 유사도 점수 표시
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #1)
+✓ wandb 로깅 성공
+
+답변: 제공된 컨텍스트에는 서울 날씨에 대한 정보가 포함되어 있지 않습니다. 따라서 정확한 날씨 정보를 제공할 수 없습니다. 서울의 현재 날씨를 알고 싶으시다면, 실시간 날씨 서비스나 기상청 웹사이트를 확인하시는 것이 가장 정확할 것입니다. 만약 특정 날짜나 시간대의 예상 날씨가 필요하시다면, 그에 대한 자세한 정보를 요청해 주시면 더 도움을 드릴 수 있을 것 같습니다.
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #2)
+✓ wandb 로깅 성공
+
+답변: 주식시장의 글로벌 흐름을 정확히 예측하는 것은 매우 어렵습니다. 현재 경제 지표, 정치 상황, 글로벌 이벤트 등 다양한 요인들이 복잡하게 얽혀 있기 때문입니다.
+
+하지만, 최근에는 **지속 가능한 성장**과 **기술 혁신** 분야에 대한 투자가 주목받고 있으며, **인공지능(AI)** 기술의 발전이 금융 시장에도 큰 영향을 미칠 것으로 예상됩니다.
+
+장기적인 관점에서 **안정적인 성장을 보이는 기업**과 **혁신적인 기술을 보유한 기업**에 대한 투자 관심이 지속될 가능성이 높습니다.
+
+**다만, 이는 예측이 아닌 일반적인 추세 분석이며, 실제 시장 상황은 예상치 못한 변수에 따라 크게 달라질 수 있음을 명심해야 합니다.**
+
+투자 결정을 내리기 전에 전문가와 상담하는 것이 좋습니다.
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #3)
+✓ wandb 로깅 성공
+
+답변: 질문이 완전하지 않아 정확한 답변을 드리기 어렵습니다. 문재인 대통령과 관련된 구체적인 질문을 부탁드립니다. 예를 들어, "문재인 대통령의 주요 정책은 무엇이었나요?" 또는 "문재인 대통령 재임 기간 동안 이루어진 주요 업적은 무엇인가요?"와 같은 질문이 도움이 될 것입니다. 더 자세한 내용을 알려주시면 감사하겠습니다.
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #4)
+✓ wandb 로깅 성공
+
+답변: 방금 우리는 인공지능(AI)의 정의와 그 하위 분야인 머신러닝 및 딥러닝에 대해 이야기했습니다. 특히, AI가 인간의 학습, 추론, 지각 능력을 어떻게 인공적으로 구현하는지와 머신러닝이 데이터로부터 패턴을 학습하는 알고리즘을 연구하는 분야임을 설명했으며, 딥러닝이 인간 뇌의 신경망 구조에서 영감을 받아 인공 신경망을 활용한다는 점을 다뤘습니다.
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #5)
+✓ wandb 로깅 성공
+
+답변: 죄송합니다만, 질문의 맥락이 명확하지 않아 정확한 답변을 드리기 어렵습니다. "먼 개소리지"라는 표현이 어떤 맥락에서 사용되었는지 좀 더 자세히 설명해 주시겠어요? 그렇게 하면 더 적절하고 도움이 되는 답변을 드릴 수 있을 것 같습니다. 혹시 특정 기술 용어에 대한 오해나 다른 질문이 있으신 건가요?
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #6)
+✓ wandb 로깅 성공
+
+답변: 제가 전달한 내용은 인공지능(AI)의 정의와 주요 분야인 머신러닝 및 딥러닝에 대한 설명이었습니다. 특히, AI가 인간의 핵심 능력을 어떻게 모방하는지와 머신러닝이 데이터 패턴 학습에 초점을 맞추며, 딥러닝이 인간 뇌의 신경망 구조에서 영감을 받은 인공 신경망을 활용한다는 점을 이야기했습니다. 질문에 대한 직접적인 답변이 아닌 내용 설명이었습니다. 혹시 특정 부분에 대해 더 자세히 알고 싶으신가요?
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #7)
+✓ wandb 로깅 성공
+
+답변: 제공된 컨텍스트에는 "per"에 대한 정보가 포함되어 있지 않습니다. 따라서 이 질문에 대해 정확하게 답변하기 어렵습니다. "per"이 특정 용어, 약어, 또는 문맥 내에서의 특정 의미를 가리키는지 추가 정보가 필요합니다. 한국어로만 답변해야 한다는 규칙을 준수하며, 현재 정보로는 관련 답변을 드리기 어렵습니다. 다른 관련 정보나 문맥을 제공해 주시면 감사하겠습니다.
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #8)
+✓ wandb 로깅 성공
+
+답변: PER는 주가수익률(Price Earnings Ratio, 주가수익률비율)을 의미합니다. 주식 투자에서 PER은 주가가 해당 기업의 주당 순이익(Earnings Per Share, 주당순이익)에 비해 얼마나 비싼지를 나타내는 지표입니다. 이 비율을 통해 투자자들은 주식의 가치 평가와 상대적인 매력도를 분석하는데 활용합니다. 높은 PER은 종종 해당 주식이 미래 성장에 대한 높은 기대를 반영하고 있음을 시사하며, 낮은 PER은 저평가되었을 가능성을 나타낼 수 있습니다.
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 478, in <module>
+    main()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 343, in main
+    query = input("\n질문: ")
+            ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x15630b600>
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:

@@ -1,0 +1,61 @@
+✓ wandb 초기화 성공: ca4dyjml
+📂 문서를 로드할 디렉토리: /Users/seonwoong/PycharmProjects/langchain_graph/data
+📄 발견된 파일: ['stock_questions3.txt', 'stock_questions2.txt', 'stock_knowledge.txt', 'technical_analysis.txt', 'stock_questions.txt', 'global_markets.txt']
+   확인 중: stock_questions3.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions3.txt (길이: 3010 자)
+   확인 중: stock_questions2.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions2.txt (길이: 3152 자)
+   확인 중: stock_knowledge.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_knowledge.txt (길이: 3066 자)
+   확인 중: technical_analysis.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: technical_analysis.txt (길이: 3750 자)
+   확인 중: stock_questions.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: stock_questions.txt (길이: 2964 자)
+   확인 중: global_markets.txt (is_file: True, endswith .txt: True)
+   ✓ 파일 읽기 성공: global_markets.txt (길이: 4103 자)
+🔢 로드된 문서 수: 6
+문서를 26개의 청크로 분할했습니다.
+기존 벡터 저장소를 로드합니다(/Users/seonwoong/PycharmProjects/langchain_graph/chroma_db)...
+Ollama LLM을 초기화합니다(exaone3.5:latest)...
+기본 프롬프트를 사용합니다.
+
+프롬프트 유형: default
+
+=== Ollama RAG 시스템에 질문하기 (종료하려면 'exit' 입력) ===
+특별 명령어: 'sources' - 마지막 질문에 사용된 문서 청크와 유사도 점수 표시
+Number of requested results 3 is greater than number of elements in index 1, updating n_results = 1
+🔄 wandb에 로깅 시도 중... (질문 #1)
+✓ wandb 로깅 성공
+
+답변: 주식시장이란 기업들이 주식을 발행하고 투자자들이 이를 사고 팔 수 있는 금융 시장을 말합니다. 여기서 주식은 기업의 소유권 일부를 나타내는 증표로, 투자자들은 이를 통해 기업의 성장에 따른 이익을 얻거나 기업의 경영에 참여할 수 있습니다. 주식시장은 주로 증권거래소를 통해 운영되며, 이곳에서는 주식의 가격이 공급과 수요에 따라 결정됩니다. 또한, 장외시장(OTC 시장)에서도 주식 거래가 이루어지지만, 이는 거래소를 통하지 않고 직접 거래되는 형태입니다. 이러한 시장은 경제 활동의 중요한 부분으로, 자금 조달과 투자 기회를 제공하는 역할을 합니다.
+유사도 점수: [1.9956663078321963]
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 483, in <module>
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/ollama_rag.py", line 343, in main
+    # 특별 명령어 처리
+          ^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in atexit callback: <bound method Client.join of <posthog.client.Client object at 0x1699d6410>>
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/posthog/client.py", line 617, in join
+    consumer.join()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x16998b600>
+Traceback (most recent call last):
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/Users/seonwoong/PycharmProjects/langchain_graph/langchain/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.10/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
