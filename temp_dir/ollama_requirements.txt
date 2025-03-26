@@ -8,5 +8,3 @@ python-dotenv>=1.0.0
 pydantic>=2.5.0
 sentence-transformers>=2.2.0
 langchain-ollama>=0.0.1 
-
-

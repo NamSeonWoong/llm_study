@@ -1,0 +1,33 @@
+# 가상환경 폴더
+langchain/
+venv/
+env/
+.env
+
+# 파이썬 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 로그 파일
+*.log
+
+# 데이터베이스
+chroma_db/
+
+# Weights & Biases
+wandb/
+
+# IDE 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 맥OS 시스템 파일
+.DS_Store
+
+# 기타 캐시 파일
+.cursor/ 
